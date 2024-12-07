@@ -1,0 +1,10 @@
+[
+    {
+        "clave": "1234",
+        "rol": "empleado"
+    },
+    {
+        "clave": "4321",
+        "rol": "gerente"
+    }
+]

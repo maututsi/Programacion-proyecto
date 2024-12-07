@@ -1,0 +1,10 @@
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Proyecto final - Fundamentos de programación.exe.config
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Proyecto final - Fundamentos de programación.exe
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Proyecto final - Fundamentos de programación.pdb
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.AssemblyReference.cache
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Form1.resources
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Properties.Resources.resources
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.GenerateResource.cache
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.CoreCompileInputs.cache
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.exe
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.pdb
