@@ -8,3 +8,6 @@ C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto
 C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.CoreCompileInputs.cache
 C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.exe
 C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.pdb
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Newtonsoft.Json.dll
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Newtonsoft.Json.xml
+C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto.D800A106.Up2Date

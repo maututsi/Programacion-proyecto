@@ -1,10 +1,12 @@
 [
     {
         "clave": "1234",
+        "contraseña": "898989",
         "rol": "empleado"
     },
     {
         "clave": "4321",
+        "contraseña": "989898",
         "rol": "gerente"
     }
 ]
