@@ -11,3 +11,16 @@ C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto
 C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Newtonsoft.Json.dll
 C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Newtonsoft.Json.xml
 C:\Proyecto programación\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto.D800A106.Up2Date
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Proyecto final - Fundamentos de programación.exe.config
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Proyecto final - Fundamentos de programación.exe
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Proyecto final - Fundamentos de programación.pdb
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Newtonsoft.Json.dll
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\bin\Debug\Newtonsoft.Json.xml
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.AssemblyReference.cache
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Form1.resources
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Properties.Resources.resources
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.GenerateResource.cache
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.csproj.CoreCompileInputs.cache
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto.D800A106.Up2Date
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.exe
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.pdb

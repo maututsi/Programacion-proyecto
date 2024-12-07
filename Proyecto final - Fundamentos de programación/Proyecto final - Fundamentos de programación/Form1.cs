@@ -40,7 +40,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            string archivoJSON = @"..\\..JSONs\usuarios.json";
+            string archivoJSON = @"..\\..\\..\\..\\JSONs\usuarios.json";
 
             string claveEmpleado = claveInput.Text;
             string contraseña = passInput.Text;
@@ -58,9 +58,13 @@ namespace Proyecto_final___Fundamentos_de_programación
                 {
                     if (user.clave == claveEmpleado && user.contraseña == contraseña)
                     {
-                        
+                        MessageBox.Show("Bienvenido " + user.nombre, "Ingreso exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
                     }
-
+                    else if (user == usuarios[usuarios.Length - 1])
+                    {
+                        MessageBox.Show("Usuario no encontrado", "Error de ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
@@ -68,7 +72,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
     public class usuario
     {
-        public string clave, contraseña, rol;
+        public string nombre, clave, contraseña, rol;
 
     }
 }
