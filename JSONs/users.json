@@ -12,9 +12,9 @@
     "rol": "admin"
   },
   {
-    "nombre": "JamesBond",
-    "clave": "007",
-    "contraseña": "007",
-    "rol": "Manager"
+    "nombre": "N.Usuario",
+    "clave": "6386",
+    "contraseña": "Contraseña",
+    "rol": "admin"
   }
 ]
