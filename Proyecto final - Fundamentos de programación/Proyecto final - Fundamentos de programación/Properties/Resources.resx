@@ -121,6 +121,9 @@
   <data name="cant buy a thrill" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cant buy a thrill.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="plastic beach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plastic beach1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="plastic beach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plastic beach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,8 +139,8 @@
   <data name="the bends" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\the bends.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="my cherie amour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\my cherie amour.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="quebec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quebec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="heaven or las vegas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\heaven or las vegas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +169,8 @@
   <data name="40 y 20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\40 y 20.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plastic beach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plastic beach1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="my cherie amour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my cherie amour.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="All_Things_Must_Pass_BW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\All_Things_Must_Pass_BW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,7 +181,7 @@
   <data name="coastal grooves" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coastal grooves.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="quebec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quebec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cuaremtayveinte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuaremtayveinte.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

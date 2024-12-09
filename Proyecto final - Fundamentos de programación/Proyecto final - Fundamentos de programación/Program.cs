@@ -19,6 +19,9 @@ namespace Proyecto_final___Fundamentos_de_programación
             Form1 form1 = new Form1();
             Application.Run(form1);
             catalogo catalogoWind = new catalogo();
+            PagoEfectivo pagoEfectivo = new PagoEfectivo();
+
+            Carrito carrito = new Carrito();
 
             if (form1.ingresoEmpleado)
             {
@@ -27,6 +30,17 @@ namespace Proyecto_final___Fundamentos_de_programación
             else if (form1.ingresoAdmin)
             {
                 Application.Run();
+            }
+
+            if (catalogoWind.irAlCarrito)
+            {
+                Application.Run(carrito);
+
+            }
+
+            if (carrito.pagarEfectivo)
+            {
+                Application.Run(pagoEfectivo);
             }
         }
     }
