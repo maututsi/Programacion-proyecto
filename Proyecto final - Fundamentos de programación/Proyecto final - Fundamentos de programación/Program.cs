@@ -19,6 +19,8 @@ namespace Proyecto_final___Fundamentos_de_programación
             Form1 form1 = new Form1();
             Application.Run(form1);
             catalogo catalogoWind = new catalogo();
+            Form2 form2 = new Form2();
+
 
             if (form1.ingresoEmpleado)
             {
@@ -26,7 +28,7 @@ namespace Proyecto_final___Fundamentos_de_programación
             }
             else if (form1.ingresoAdmin)
             {
-                Application.Run();
+                Application.Run(form2);
             }
         }
     }
