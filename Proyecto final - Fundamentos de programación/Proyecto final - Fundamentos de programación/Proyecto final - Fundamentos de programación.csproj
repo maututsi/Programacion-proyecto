@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Carrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carrito.Designer.cs">
+      <DependentUpon>Carrito.cs</DependentUpon>
+    </Compile>
     <Compile Include="catalogo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     <Compile Include="Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Carrito.resx">
+      <DependentUpon>Carrito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="catalogo.resx">
       <DependentUpon>catalogo.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\quebec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuaremtayveinte.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

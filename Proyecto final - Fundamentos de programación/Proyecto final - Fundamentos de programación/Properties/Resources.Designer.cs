@@ -123,6 +123,16 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cuaremtayveinte {
+            get {
+                object obj = ResourceManager.GetObject("cuaremtayveinte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap deathconsciousness {
             get {
                 object obj = ResourceManager.GetObject("deathconsciousness", resourceCulture);

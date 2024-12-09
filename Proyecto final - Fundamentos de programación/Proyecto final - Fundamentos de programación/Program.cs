@@ -20,6 +20,8 @@ namespace Proyecto_final___Fundamentos_de_programación
             Application.Run(form1);
             catalogo catalogoWind = new catalogo();
 
+            Carrito carrito = new Carrito();
+
             if (form1.ingresoEmpleado)
             {
                 Application.Run(catalogoWind);
@@ -27,6 +29,11 @@ namespace Proyecto_final___Fundamentos_de_programación
             else if (form1.ingresoAdmin)
             {
                 Application.Run();
+            }
+
+            if (catalogoWind.irAlCarrito)
+            {
+                Application.Run(carrito);
             }
         }
     }

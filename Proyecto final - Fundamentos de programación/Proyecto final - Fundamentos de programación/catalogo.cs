@@ -17,8 +17,16 @@ namespace Proyecto_final___Fundamentos_de_programación
         private PagoTarjeta formTarjeta = null;
         private PagoEfectivo formEfectivo = null;
 
-        private Productos[] productos;
+        public static Productos[] productos;
+
         private List<ventas> listVentas = new List<ventas>();
+
+        private int indice;
+
+        public bool irAlCarrito = false;
+
+        public static List<Productos> carrito = new List<Productos>();
+        public static List<int> indices = new List<int>(); 
 
         public catalogo()
         {
@@ -145,10 +153,338 @@ namespace Proyecto_final___Fundamentos_de_programación
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Titulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            indice = 0;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.the_bends;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+            indice = 1;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.vespertine;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            indice = 2;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.All_Things_Must_Pass_BW;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            indice = 3;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.heaven_or_las_vegas;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            indice = 4;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.monster;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            indice = 5;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.titanic_rising;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel8_Click(object sender, EventArgs e)
+        {
+            indice = 6;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.deathconsciousness;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel9_Click(object sender, EventArgs e)
+        {
+            indice = 7;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.graduation;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel10_Click(object sender, EventArgs e)
+        {
+            indice = 8;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.cant_buy_a_thrill;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel11_Click(object sender, EventArgs e)
+        {
+            indice = 9;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.ten;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel12_Click(object sender, EventArgs e)
+        {
+            indice = 10;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.human_hymns;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel13_Click(object sender, EventArgs e)
+        {
+            indice = 11;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.coastal_grooves;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel14_Click(object sender, EventArgs e)
+        {
+            indice = 12;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.charm;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel15_Click(object sender, EventArgs e)
+        {
+            indice = 13;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.atlant_mill_club;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel16_Click(object sender, EventArgs e)
+        {
+            indice = 14;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.midnite_vultures;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel17_Click(object sender, EventArgs e)
+        {
+            indice = 15;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.imperfecto_extraño;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel18_Click(object sender, EventArgs e)
+        {
+            indice = 16;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.plastic_beach;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel19_Click(object sender, EventArgs e)
+        {
+            indice = 17;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.cuaremtayveinte;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel20_Click(object sender, EventArgs e)
+        {
+            indice = 18;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.my_cherie_amour;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void panel21_Click(object sender, EventArgs e)
+        {
+            indice = 19;
+            Titulo.Visible = true;
+            Titulo.Text = productos[indice].titulo.ToString();
+            artistaaa.Text = productos[indice].artista.ToString() + " - " + productos[indice].fecha.ToString();
+            artistaaa.Visible = true;
+            miniatura.Image = Properties.Resources.quebec;
+            presio.Text = "$" + productos[indice].precio.ToString();
+            presio.Visible = true;
+            AddToCart.Visible = true;
+            goToCart.Visible = true;
+            warn.Visible = false;
+        }
+
+        private void label62_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddToCart_Click(object sender, EventArgs e)
+        {
+            carrito.Add(productos[indice]);
+            indices.Add(indice);
+            warn.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            irAlCarrito = true;
+            this.Close();
+        }
     }
 
     public class Productos
     {
-        public string titulo, artista, fecha, precio;
+        public string titulo, artista, fecha, precio, imagen;
     }
 }

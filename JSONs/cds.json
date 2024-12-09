@@ -3,120 +3,141 @@
         "titulo": "The Bends",
         "artista": "Radiohead",
         "fecha": "1995",
-        "precio": "399"
+        "precio": "399",
+        "imagen": "the bends"
     },
     {
         "titulo": "Vespertine",
         "artista": "Bjork",
         "fecha": "2001",
-        "precio": "299"
+        "precio": "299",
+        "imagen": "vespertine"
+        
     },
     {
         "titulo": "All things must pass",
         "artista": "George Harrison",
         "fecha": "1970",
-        "precio": "399"
+        "precio": "399",
+        "imagen": "All_Things_Must_Pass_BW"
     },
     {
         "titulo": "Heaven or Las Vegas",
         "artista": "Cocteau Twins",
         "fecha": "1990",
-        "precio": "499"
+        "precio": "499",
+        "imagen": "heaven or las vegas"
     },
     {
         "titulo": "Monster",
         "artista": "REM",
         "fecha": "1994",
-        "precio": "399"
+        "precio": "399",
+        "imagen": "monster"
     },
     {
         "titulo": "Titanic Rising",
         "artista": "Weyes Blood",
         "fecha": "2019",
-        "precio": "599"
+        "precio": "599",
+        "imagen": "titanic rising"
     },
     {
         "titulo": "deathconsciousness",
         "artista": "Have a Nice Life",
         "fecha": "2008",
-        "precio": "699"
+        "precio": "699",
+        "imagen": "deathconsciousness"
     },
     {
         "titulo": "Graduation",
         "artista": "Kanye West",
         "fecha": "2007",
-        "precio": "399"
+        "precio": "399",
+        "imagen": "graduation"
     },
     {
         "titulo": "Can't Buy a Thrill",
         "artista": "Steely Dan",
         "fecha": "1972",
-        "precio": "299"
+        "precio": "299",
+        "imagen": "cant buy a thrill"
     },
     {
         "titulo": "Ten",
         "artista": "Pearl Jam",
         "fecha": "1991",
-        "precio": "199"
+        "precio": "199",
+        "imagen": "ten"
     },
     {
         "titulo": "Human Hymns",
         "artista": "The Verve",
         "fecha": "1997",
-        "precio": "199"
+        "precio": "199",
+        "imagen": "human hymns"
     },
     {
         "titulo": "Coastal Grooves",
         "artista": "Blood Orange",
         "fecha": "2011",
-        "precio": "699"
+        "precio": "699",
+        "imagen": "coastal grooves"
     },
     {
         "titulo": "Charm",
         "artista": "Clairo",
         "fecha": "2024",
-        "precio": "399"
+        "precio": "399",
+        "imagen": "charm"
     },
     {
         "titulo": "Atlanta Millionaires Club",
         "artista": "Faye Webster",
         "fecha": "2019",
-        "precio": "399"
+        "precio": "399",
+        "imagen": "atlant mill club"
     },
     {
         "titulo": "Midnite Vultures",
         "artista": "Beck",
         "fecha": "1999",
-        "precio": "599"
+        "precio": "599",
+        "imagen": "midnite vultures"
     },
     {
         "titulo": "Imperfecto Extraño",
         "artista": "Enjambre",
         "fecha": "2017",
-        "precio": "199"
+        "precio": "199",
+        "imagen": "imperfecto extraño"
     },
     {
         "titulo": "Plastic Beach",
         "artista": "Gorillaz",
         "fecha": "2010",
-        "precio": "199"
+        "precio": "199",
+        "imagen": "plastic beach"
     },
     {
         "titulo": "40 y 20",
         "artista": "José José",
         "fecha": "1992",
-        "precio": "199"
+        "precio": "199",
+        "imagen": "cuarentayveinte"
     },
     {
         "titulo": "My cherie amour",
         "artista": "Stevie Wonder",
         "fecha": "1969",
-        "precio": "199"
+        "precio": "199",
+        "imagen": "my cherie amour"
     },
     {
         "titulo": "quebec",
         "artista": "Ween",
         "fecha": "2003",
-        "precio": "499"
+        "precio": "499",
+        "imagen": "quebec"
     }
 ]

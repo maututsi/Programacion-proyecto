@@ -26,3 +26,4 @@ C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto 
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.pdb
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.catalogo.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Ventas.resources
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Carrito.resources
