@@ -9,6 +9,6 @@
         "nombre": "canguro",
         "clave": "4321",
         "contraseña": "989898",
-        "rol": "gerente"
+        "rol": "admin"
     }
 ]

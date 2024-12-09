@@ -49,14 +49,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="catalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="catalogo.Designer.cs">
+      <DependentUpon>catalogo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PagoEfectivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagoEfectivo.Designer.cs">
+      <DependentUpon>PagoEfectivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagoTarjeta.Designer.cs">
+      <DependentUpon>PagoTarjeta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="catalogo.resx">
+      <DependentUpon>catalogo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -68,7 +95,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -82,6 +113,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vespertine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the bends.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\All_Things_Must_Pass_BW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heaven or las vegas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titanic rising.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deathconsciousness.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduation.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cant buy a thrill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ten.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human hymns.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coastal grooves.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charm.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atlant mill club.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnite vultures.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imperfecto extraño.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plastic beach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plastic beach1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40 y 20.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my cherie amour.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quebec.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

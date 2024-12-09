@@ -18,6 +18,16 @@ namespace Proyecto_final___Fundamentos_de_programación
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 form1 = new Form1();
             Application.Run(form1);
+            catalogo catalogoWind = new catalogo();
+
+            if (form1.ingresoEmpleado)
+            {
+                Application.Run(catalogoWind);
+            }
+            else if (form1.ingresoAdmin)
+            {
+                Application.Run();
+            }
         }
     }
 }

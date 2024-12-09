@@ -75,6 +75,7 @@
             this.passInput.Name = "passInput";
             this.passInput.Size = new System.Drawing.Size(262, 34);
             this.passInput.TabIndex = 4;
+            this.passInput.TextChanged += new System.EventHandler(this.passInput_TextChanged);
             // 
             // label2
             // 

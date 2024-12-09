@@ -13,6 +13,9 @@ namespace Proyecto_final___Fundamentos_de_programación
 {
     public partial class Form1 : Form
     {
+        public bool ingresoEmpleado = false;
+        public bool ingresoAdmin = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -59,6 +62,17 @@ namespace Proyecto_final___Fundamentos_de_programación
                     if (user.clave == claveEmpleado && user.contraseña == contraseña)
                     {
                         MessageBox.Show("Bienvenido " + user.nombre, "Ingreso exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        if (user.rol == "empleado")
+                        {
+                            ingresoEmpleado = true;
+                            this.Close();
+                        }
+                        else if (user.rol == "admin")
+                        {
+                            ingresoAdmin = true;
+                            this.Close();
+                        }
                         break;
                     }
                     else if (user == usuarios[usuarios.Length - 1])
@@ -67,6 +81,11 @@ namespace Proyecto_final___Fundamentos_de_programación
                     }
                 }
             }
+        }
+
+        private void passInput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 
