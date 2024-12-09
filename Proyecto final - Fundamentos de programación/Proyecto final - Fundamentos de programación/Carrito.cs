@@ -15,6 +15,9 @@ namespace Proyecto_final___Fundamentos_de_programación
     {
         public bool pagarEfectivo = false;
         public bool pagarTarjeta = false;
+        public bool regresarACatalogo = false;
+        public bool reiniciarVentana = false;
+        public int pagoTotal;
 
         public Carrito()
         {
@@ -34,6 +37,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
             int cant = 0;
             int num = 1;
+            int total = 0;
 
             foreach (Productos cd in carritoDeCatalogo)
             {
@@ -56,6 +60,19 @@ namespace Proyecto_final___Fundamentos_de_programación
                     pictureBox.Image = (Image)Properties.Resources.ResourceManager.GetObject(nombreImagen);
                 }
 
+                Label label = this.Controls.Find("titulo" + num, true).FirstOrDefault() as Label;
+                if (pictureBox != null && num <= cant)
+                {
+                    label.Text = carritoDeCatalogo[num - 1].titulo.ToString();
+                }
+
+                Label presioo = this.Controls.Find("precio" + num, true).FirstOrDefault() as Label;
+                if (pictureBox != null && num <= cant)
+                {
+                    presioo.Text = "$" + carritoDeCatalogo[num - 1].precio.ToString();
+                }
+
+
                 if (num == cant)
                 {
                     break;
@@ -63,6 +80,14 @@ namespace Proyecto_final___Fundamentos_de_programación
 
                 num++;
             }
+
+            for (int i = 0; i < cant; i++)
+            {
+                total += Convert.ToInt32(carritoDeCatalogo[i].precio.ToString());
+            }
+
+            Total.Text = "Total: $" + total.ToString();
+            pagoTotal = total;
         }
 
         private void Contenedor_Paint(object sender, PaintEventArgs e)
@@ -98,151 +123,169 @@ namespace Proyecto_final___Fundamentos_de_programación
         private void pan1_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(0);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan2_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(1);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan3_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(2);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan4_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(3);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan5_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(4);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan6_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(5);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan7_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(6);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan8_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(7);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan9_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(8);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan10_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(9);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan11_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(10);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan12_Click(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(11);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan13_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(12);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan14_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(13);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan15_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(14);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan16_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(15);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan17_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(16);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan18_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(17);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan19_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(18);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void pan20_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(19);
-            mostrarCarrito();
-            
+            this.Close();
+            reiniciarVentana = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             pagarEfectivo = true;
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             pagarTarjeta = true;
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            regresarACatalogo = true;
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

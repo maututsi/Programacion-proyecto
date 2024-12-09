@@ -112,6 +112,9 @@
             this.xbox13 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.Total = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pan20.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xbox20)).BeginInit();
@@ -158,6 +161,8 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pan20);
             this.panel1.Controls.Add(this.pan10);
             this.panel1.Controls.Add(this.pan9);
@@ -187,6 +192,7 @@
             // 
             // pan20
             // 
+            this.pan20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan20.Controls.Add(this.precio20);
             this.pan20.Controls.Add(this.titulo20);
             this.pan20.Controls.Add(this.xbox20);
@@ -232,6 +238,7 @@
             // 
             // pan10
             // 
+            this.pan10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan10.Controls.Add(this.precio10);
             this.pan10.Controls.Add(this.titulo10);
             this.pan10.Controls.Add(this.xbox10);
@@ -277,6 +284,7 @@
             // 
             // pan9
             // 
+            this.pan9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan9.Controls.Add(this.precio9);
             this.pan9.Controls.Add(this.titulo9);
             this.pan9.Controls.Add(this.xbox9);
@@ -322,6 +330,7 @@
             // 
             // pan19
             // 
+            this.pan19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan19.Controls.Add(this.precio19);
             this.pan19.Controls.Add(this.titulo19);
             this.pan19.Controls.Add(this.xbox19);
@@ -367,6 +376,7 @@
             // 
             // pan8
             // 
+            this.pan8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan8.Controls.Add(this.precio8);
             this.pan8.Controls.Add(this.titulo8);
             this.pan8.Controls.Add(this.xbox8);
@@ -412,6 +422,7 @@
             // 
             // pan7
             // 
+            this.pan7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan7.Controls.Add(this.precio7);
             this.pan7.Controls.Add(this.titulo7);
             this.pan7.Controls.Add(this.xbox7);
@@ -457,6 +468,7 @@
             // 
             // pan18
             // 
+            this.pan18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan18.Controls.Add(this.precio18);
             this.pan18.Controls.Add(this.titulo18);
             this.pan18.Controls.Add(this.xbox18);
@@ -502,6 +514,7 @@
             // 
             // pan6
             // 
+            this.pan6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan6.Controls.Add(this.precio6);
             this.pan6.Controls.Add(this.titulo6);
             this.pan6.Controls.Add(this.xbox6);
@@ -547,6 +560,7 @@
             // 
             // pan5
             // 
+            this.pan5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan5.Controls.Add(this.precio5);
             this.pan5.Controls.Add(this.titulo5);
             this.pan5.Controls.Add(this.xbox5);
@@ -592,6 +606,7 @@
             // 
             // pan17
             // 
+            this.pan17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan17.Controls.Add(this.precio17);
             this.pan17.Controls.Add(this.titulo17);
             this.pan17.Controls.Add(this.xbox17);
@@ -637,6 +652,7 @@
             // 
             // pan4
             // 
+            this.pan4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan4.Controls.Add(this.precio4);
             this.pan4.Controls.Add(this.titulo4);
             this.pan4.Controls.Add(this.xbox4);
@@ -682,6 +698,7 @@
             // 
             // pan15
             // 
+            this.pan15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan15.Controls.Add(this.precio15);
             this.pan15.Controls.Add(this.titulo15);
             this.pan15.Controls.Add(this.xbox15);
@@ -727,6 +744,7 @@
             // 
             // pan3
             // 
+            this.pan3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan3.Controls.Add(this.precio3);
             this.pan3.Controls.Add(this.titulo3);
             this.pan3.Controls.Add(this.xbox3);
@@ -773,6 +791,7 @@
             // 
             // pan16
             // 
+            this.pan16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan16.Controls.Add(this.precio16);
             this.pan16.Controls.Add(this.titulo16);
             this.pan16.Controls.Add(this.xbox16);
@@ -818,6 +837,7 @@
             // 
             // pan2
             // 
+            this.pan2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan2.Controls.Add(this.precio2);
             this.pan2.Controls.Add(this.titulo2);
             this.pan2.Controls.Add(this.xbox2);
@@ -864,6 +884,7 @@
             // 
             // pan11
             // 
+            this.pan11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan11.Controls.Add(this.precio11);
             this.pan11.Controls.Add(this.titulo11);
             this.pan11.Controls.Add(this.xbox11);
@@ -909,6 +930,7 @@
             // 
             // pan1
             // 
+            this.pan1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan1.Controls.Add(this.precio1);
             this.pan1.Controls.Add(this.titulo1);
             this.pan1.Controls.Add(this.xbox1);
@@ -956,6 +978,7 @@
             // 
             // pan12
             // 
+            this.pan12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan12.Controls.Add(this.precio12);
             this.pan12.Controls.Add(this.titulo12);
             this.pan12.Controls.Add(this.xbox12);
@@ -1013,6 +1036,7 @@
             // 
             // pan14
             // 
+            this.pan14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan14.Controls.Add(this.precio14);
             this.pan14.Controls.Add(this.titulo14);
             this.pan14.Controls.Add(this.xbox14);
@@ -1058,6 +1082,7 @@
             // 
             // pan13
             // 
+            this.pan13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan13.Controls.Add(this.precio13);
             this.pan13.Controls.Add(this.titulo13);
             this.pan13.Controls.Add(this.xbox13);
@@ -1103,7 +1128,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(29, 562);
+            this.button1.Location = new System.Drawing.Point(29, 556);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(154, 52);
             this.button1.TabIndex = 1;
@@ -1113,7 +1138,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(202, 562);
+            this.button2.Location = new System.Drawing.Point(202, 556);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(154, 52);
             this.button2.TabIndex = 2;
@@ -1121,11 +1146,45 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(29, 626);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(154, 52);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Regresar para agregar más";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // Total
+            // 
+            this.Total.AutoSize = true;
+            this.Total.Font = new System.Drawing.Font("DM Sans", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Total.Location = new System.Drawing.Point(26, 494);
+            this.Total.Name = "Total";
+            this.Total.Size = new System.Drawing.Size(88, 35);
+            this.Total.TabIndex = 4;
+            this.Total.Text = "label1";
+            this.Total.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("DM Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(25, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(515, 21);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Haz doble click en el panel de una canción para eliminarla del carrito";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // Carrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 699);
+            this.Controls.Add(this.Total);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
@@ -1196,6 +1255,7 @@
             this.pan13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xbox13)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1285,5 +1345,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label Total;
+        private System.Windows.Forms.Label label1;
     }
 }
