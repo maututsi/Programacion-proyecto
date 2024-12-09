@@ -24,6 +24,9 @@ namespace Proyecto_final___Fundamentos_de_programación
             catalogo catalogoWind2 = new catalogo();
             catalogo catalogoWind3 = new catalogo();
             catalogo catalogoWind4 = new catalogo();
+            catalogo catalogoWind5 = new catalogo();
+            catalogo catalogoWind6 = new catalogo();
+            catalogo catalogoWind7 = new catalogo();
             Carrito carrito = new Carrito();
             Carrito carrito1 = new Carrito();
             Carrito carrito2 = new Carrito();
@@ -91,6 +94,26 @@ namespace Proyecto_final___Fundamentos_de_programación
             if (catalogoWind4.irAlCarrito)
             {
                 Application.Run(carrito5);
+            }
+
+            if (carrito5.regresarACatalogo)
+            {
+                Application.Run(catalogoWind5);
+            }
+
+            if (catalogoWind5.irAlCarrito)
+            {
+                Application.Run(carrito6);
+            }
+
+            if (carrito6.regresarACatalogo)
+            {
+                Application.Run(catalogoWind6);
+            }
+
+            if (catalogoWind6.irAlCarrito)
+            {
+                Application.Run(carrito7);
             }
 
             if (carrito.reiniciarVentana)
