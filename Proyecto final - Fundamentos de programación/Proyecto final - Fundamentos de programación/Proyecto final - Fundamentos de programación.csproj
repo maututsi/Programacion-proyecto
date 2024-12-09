@@ -81,9 +81,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rellenar.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Rellenar.cs" />
     <Compile Include="Rellenar.Designer.cs">
       <DependentUpon>Rellenar.cs</DependentUpon>
     </Compile>

@@ -146,9 +146,4 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         }
     }
-
-    public class Productos
-    {
-        public string titulo, artista, fecha, precio;
-    }
 }
