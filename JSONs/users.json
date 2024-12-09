@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "martín",
+    "clave": "1234",
+    "contraseña": "898989",
+    "rol": "empleado"
+  },
+  {
+    "nombre": "canguro",
+    "clave": "4321",
+    "contraseña": "989898",
+    "rol": "admin"
+  },
+  {
+    "nombre": "N.Usuario",
+    "clave": "6386",
+    "contraseña": "Contraseña",
+    "rol": "admin"
+  }
+]

@@ -119,6 +119,9 @@
     <EmbeddedResource Include="Rellenar.resx">
       <DependentUpon>Rellenar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>

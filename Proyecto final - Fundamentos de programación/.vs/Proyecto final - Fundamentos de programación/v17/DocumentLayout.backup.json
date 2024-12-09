@@ -3,51 +3,55 @@
   "WorkspaceRootPath": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|d:\\progre\\programacion-proyecto\\proyecto final - fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\rellenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\rellenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Progre\\Programacion-proyecto\\JSONs\\cds.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|d:\\progre\\programacion-proyecto\\proyecto final - fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\rellenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\rellenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\rellenar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\rellenar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Progre\\Programacion-proyecto\\JSONs\\cds.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\catalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\proyecto final - fundamentos de programaci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E69AC80-E899-4140-B002-DDB03FDEFF60}|Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n.csproj|solutionrelative:proyecto final - fundamentos de programaci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,63 +64,108 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rellenar.cs",
-              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
-              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
-              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
-              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T04:06:01.208Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ventas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs",
-              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs",
-              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs [Dise\u00F1o]",
+              "Title": "Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
+              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T02:18:11.31Z",
+              "WhenOpened": "2024-12-09T02:11:57.922Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "cds.json",
-              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\JSONs\\cds.json",
-              "RelativeDocumentMoniker": "..\\JSONs\\cds.json",
-              "ToolTip": "D:\\Progre\\Programacion-proyecto\\JSONs\\cds.json",
-              "RelativeToolTip": "..\\JSONs\\cds.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-09T06:17:25.878Z",
+              "DocumentIndex": 0,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
+              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
+              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwEMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:50:50.065Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "catalogo.cs",
               "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\catalogo.cs",
               "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\catalogo.cs",
               "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\catalogo.cs",
               "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\catalogo.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAIwJMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T00:53:32.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "cds.json",
+              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\JSONs\\cds.json",
+              "RelativeDocumentMoniker": "..\\JSONs\\cds.json",
+              "ToolTip": "D:\\Progre\\Programacion-proyecto\\JSONs\\cds.json",
+              "RelativeToolTip": "..\\JSONs\\cds.json",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T06:17:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rellenar.Designer.cs",
+              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.Designer.cs",
+              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.Designer.cs",
+              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.Designer.cs",
+              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.Designer.cs",
+              "ViewState": "AgIAAIoCAAAAAAAAAAAwwKACAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:48:10.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
+              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
+              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
+              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:08:18.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rellenar.cs",
+              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
+              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
+              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
+              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Rellenar.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwGAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:06:01.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "catalogo.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\catalogo.cs",
               "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\catalogo.cs",
@@ -128,32 +177,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
-              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs",
-              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Usuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T02:11:57.922Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Ventas.cs",
               "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs",
               "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs",
               "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs",
               "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Ventas.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T22:26:56.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Program.cs",
               "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Program.cs",
@@ -166,20 +203,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form1.cs",
               "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Form1.cs",
               "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form1.cs",
               "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Form1.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T03:59:32.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form1.cs",
               "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Form1.cs",
@@ -188,19 +225,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T03:05:41.553Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
-              "RelativeDocumentMoniker": "Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
-              "ToolTip": "D:\\Progre\\Programacion-proyecto\\Proyecto final - Fundamentos de programaci\u00F3n\\Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
-              "RelativeToolTip": "Proyecto final - Fundamentos de programaci\u00F3n\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T02:08:18.241Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

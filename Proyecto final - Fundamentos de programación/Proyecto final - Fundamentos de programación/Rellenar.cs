@@ -23,16 +23,31 @@ namespace Proyecto_final___Fundamentos_de_programación
     public partial class Rellenar : Form
     {
         List<Productos> Productos;
+
         public Rellenar()
         {
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ModificarProductos();
+            ActualizarJson();
+            MessageBox.Show("Productos guardados correctamente.");
+        }
+
         private void Rellenar_Load(object sender, EventArgs e)
         {
-            DescarargarJson();
-            LlenarCantidad();
-            LLenarPrecios();
+            DescarargarJson();  // Cargar el archivo JSON
+            if (Productos != null)
+            {
+                LlenarCantidad();
+                LlenarPrecios();
+            }
+            else
+            {
+                MessageBox.Show("No se pudo cargar el archivo de productos.");
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -49,68 +64,243 @@ namespace Proyecto_final___Fundamentos_de_programación
         {
 
         }
+
         public void DescarargarJson()
         {
             string fileJson = @"..\\..\\..\\..\\JSONs\cds.json";
-            string json = System.IO.File.ReadAllText(fileJson);
-            Productos = JsonConvert.DeserializeObject<List<Productos>>(json);
+            try
+            {
+                string json = System.IO.File.ReadAllText(fileJson);
+                if (string.IsNullOrEmpty(json))
+                {
+                    MessageBox.Show("El archivo JSON está vacío.");
+                    Productos = new List<Productos>();
+                }
+                else
+                {
+                    Productos = JsonConvert.DeserializeObject<List<Productos>>(json) ?? new List<Productos>();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar el archivo JSON: " + ex.Message);
+                Productos = new List<Productos>();
+            }
         }
+
         public void ActualizarJson()
         {
             string fileJson = @"..\\..\\..\\..\\JSONs\cds.json";
-            string json = JsonConvert.SerializeObject(Productos, Formatting.Indented);
-            System.IO.File.WriteAllText(fileJson, json);
+            try
+            {
+                string json = JsonConvert.SerializeObject(Productos, Formatting.Indented);
+                System.IO.File.WriteAllText(fileJson, json);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al actualizar el archivo JSON: " + ex.Message);
+            }
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
-        public void LLenarPrecios()
+
+        public void LlenarPrecios()
         {
-            txt_pTheBends.Text = Productos.Find(item => item.Product == "The Bends").precio.ToString();
-            txt_pVespertine.Text = Productos.Find(item => item.Product == "Vespertine").precio.ToString();
-            txt_pAllThingsMustPass.Text = Productos.Find(item => item.Product == "All things must pass").precio.ToString();
-            txt_pHeveanOrLasVegas.Text = Productos.Find(item => item.Product == "Heaven or Las Vegas").precio.ToString();
-            txt_pMonster.Text = Productos.Find(item => item.Product == "Monster").precio.ToString();
-            txt_pTitanicRising.Text = Productos.Find(item => item.Product == "Titanic Rising").precio.ToString();
-            txt_pDeathconsciousness.Text = Productos.Find(item => item.Product == "deathconsciousness").precio.ToString();
-            txt_pGraduation.Text = Productos.Find(item => item.Product == "Graduation").precio.ToString();
-            txt_pCantByuaThrill.Text = Productos.Find(item => item.Product == "Can´t Buy a Thrill").precio.ToString();
-            txt_pTen.Text = Productos.Find(item => item.Product == "Ten").precio.ToString();
-            txt_pHumanHymns.Text = Productos.Find(item => item.Product == "Human Hymns").precio.ToString();
-            txt_pCoastalGrooves.Text = Productos.Find(item => item.Product == "Coastal Grooves").precio.ToString();
-            txt_pCharm.Text = Productos.Find(item => item.Product == "Charm").precio.ToString();
-            txt_pAtlantaMillionairesClub.Text = Productos.Find(item => item.Product == "Atlanta Millionaires Club").precio.ToString();
-            txt_pMidnightsVultures.Text = Productos.Find(item => item.Product == "Midnite Vultures").precio.ToString();
-            txt_pImperfectoExtraño.Text = Productos.Find(item => item.Product == "Imperfecto Extraño").precio.ToString();
-            txt_pPlasticBeach.Text = Productos.Find(item => item.Product == "Plastic Beach").precio.ToString();
-            txt_p4020.Text = Productos.Find(item => item.Product == "40 y 20").precio.ToString();
-            txt_pMyCherieAmour.Text = Productos.Find(item => item.Product == "My cherie amour").precio.ToString();
-            txt_pQuebec.Text = Productos.Find(item => item.Product == "quebec").precio.ToString();
+            foreach (var producto in Productos)
+            {
+                switch (producto.Product)
+                {
+                    case "The Bends":
+                        txt_pTheBends.Text = producto.Price.ToString();
+                        break;
+                    case "Vespertine":
+                        txt_pVespertine.Text = producto.Price.ToString();
+                        break;
+                    case "All things must pass":
+                        txt_pAllThingsMustPass.Text = producto.Price.ToString();
+                        break;
+                    case "Heaven or Las Vegas":
+                        txt_pHeveanOrLasVegas.Text = producto.Price.ToString();
+                        break;
+                    case "Monster":
+                        txt_pMonster.Text = producto.Price.ToString();
+                        break;
+                    case "Titanic Rising":
+                        txt_pTitanicRising.Text = producto.Price.ToString();
+                        break;
+                    case "deathconsciousness":
+                        txt_pDeathconsciousness.Text = producto.Price.ToString();
+                        break;
+                    case "Graduation":
+                        txt_pGraduation.Text = producto.Price.ToString();
+                        break;
+                    case "Can´t Buy a Thrill":
+                        txt_pCantByuaThrill.Text = producto.Price.ToString();
+                        break;
+                    case "Ten":
+                        txt_pTen.Text = producto.Price.ToString();
+                        break;
+                    case "Human Hymns":
+                        txt_pHumanHymns.Text = producto.Price.ToString();
+                        break;
+                    case "Coastal Grooves":
+                        txt_pCoastalGrooves.Text = producto.Price.ToString();
+                        break;
+                    case "Charm":
+                        txt_pCharm.Text = producto.Price.ToString();
+                        break;
+                    case "Atlanta Millionaires Club":
+                        txt_pAtlantaMillionairesClub.Text = producto.Price.ToString();
+                        break;
+                    case "Midnite Vultures":
+                        txt_pMidnightsVultures.Text = producto.Price.ToString();
+                        break;
+                    case "Imperfecto Extraño":
+                        txt_pImperfectoExtraño.Text = producto.Price.ToString();
+                        break;
+                    case "Plastic Beach":
+                        txt_pPlasticBeach.Text = producto.Price.ToString();
+                        break;
+                    case "40 y 20":
+                        txt_p4020.Text = producto.Price.ToString();
+                        break;
+                    case "My cherie amour":
+                        txt_pMyCherieAmour.Text = producto.Price.ToString();
+                        break;
+                    case "quebec":
+                        txt_pQuebec.Text = producto.Price.ToString();
+                        break;
+                }
+            }
         }
+
         public void LlenarCantidad()
         {
-            txt_cTheBends.Text = Productos.Find(item => item.Product == "The Bends").Cant.ToString();
-            txt_cVespertine.Text = Productos.Find(item => item.Product == "Vespertine").Cant.ToString();
-            txt_cAllThingsMustPass.Text = Productos.Find(item => item.Product == "All things must pass").Cant.ToString();
-            txt_cHeavenOrLasVegas.Text = Productos.Find(item => item.Product == "Heaven or Las Vegas").Cant.ToString();
-            txt_cMonster.Text = Productos.Find(item => item.Product == "Monster").Cant.ToString();
-            txt_cTitanicRising.Text = Productos.Find(item => item.Product == "Titanic Rising").Cant.ToString();
-            txt_cDeathconsciousness.Text = Productos.Find(item => item.Product == "deathconsciousness").Cant.ToString();
-            txt_cGraduation.Text = Productos.Find(item => item.Product == "Graduation").Cant.ToString();
-            txt_cCantByuaThrill.Text = Productos.Find(item => item.Product == "Can´t Buy a Thrill").Cant.ToString();
-            txt_cTen.Text = Productos.Find(item => item.Product == "Ten").Cant.ToString();
-            txt_cHumanHymns.Text = Productos.Find(item => item.Product == "Human Hymns").Cant.ToString();
-            txt_cCoastalGrooves.Text = Productos.Find(item => item.Product == "Coastal Grooves").Cant.ToString();
-            txt_cCharm.Text = Productos.Find(item => item.Product == "Charm").Cant.ToString();
-            txt_cAtlantaMillionairesClub.Text = Productos.Find(item => item.Product == "Atlanta Millionaires Club").Cant.ToString();
-            txt_cMidnightsVultrues.Text = Productos.Find(item => item.Product == "Midnite Vultures").Cant.ToString();
-            txt_cImperfectoExtraño.Text = Productos.Find(item => item.Product == "Imperfecto Extraño").Cant.ToString();
-            txt_cPlasticBeach.Text = Productos.Find(item => item.Product == "Plastic Beach").Cant.ToString();
-            txt_c4020.Text = Productos.Find(item => item.Product == "40 y 20").Cant.ToString();
-            txt_cMyChaireAmour.Text = Productos.Find(item => item.Product == "My cherie amour").Cant.ToString();
-            txt_cQuebec.Text = Productos.Find(item => item.Product == "quebec").Cant.ToString();
+            foreach (var producto in Productos)
+            {
+                switch (producto.Product)
+                {
+                    case "The Bends":
+                        txt_cTheBends.Text = producto.Cant.ToString();
+                        break;
+                    case "Vespertine":
+                        txt_cVespertine.Text = producto.Cant.ToString();
+                        break;
+                    case "All things must pass":
+                        txt_cAllThingsMustPass.Text = producto.Cant.ToString();
+                        break;
+                    case "Heaven or Las Vegas":
+                        txt_cHeavenOrLasVegas.Text = producto.Cant.ToString();
+                        break;
+                    case "Monster":
+                        txt_cMonster.Text = producto.Cant.ToString();
+                        break;
+                    case "Titanic Rising":
+                        txt_cTitanicRising.Text = producto.Cant.ToString();
+                        break;
+                    case "deathconsciousness":
+                        txt_cDeathconsciousness.Text = producto.Cant.ToString();
+                        break;
+                    case "Graduation":
+                        txt_cGraduation.Text = producto.Cant.ToString();
+                        break;
+                    case "Can´t Buy a Thrill":
+                        txt_cCantByuaThrill.Text = producto.Cant.ToString();
+                        break;
+                    case "Ten":
+                        txt_cTen.Text = producto.Cant.ToString();
+                        break;
+                    case "Human Hymns":
+                        txt_cHumanHymns.Text = producto.Cant.ToString();
+                        break;
+                    case "Coastal Grooves":
+                        txt_cCoastalGrooves.Text = producto.Cant.ToString();
+                        break;
+                    case "Charm":
+                        txt_cCharm.Text = producto.Cant.ToString();
+                        break;
+                    case "Atlanta Millionaires Club":
+                        txt_cAtlantaMillionairesClub.Text = producto.Cant.ToString();
+                        break;
+                    case "Midnite Vultures":
+                        txt_cMidnightsVultrues.Text = producto.Cant.ToString();
+                        break;
+                    case "Imperfecto Extraño":
+                        txt_cImperfectoExtraño.Text = producto.Cant.ToString();
+                        break;
+                    case "Plastic Beach":
+                        txt_cPlasticBeach.Text = producto.Cant.ToString();
+                        break;
+                    case "40 y 20":
+                        txt_c4020.Text = producto.Cant.ToString();
+                        break;
+                    case "My cherie amour":
+                        txt_cMyChaireAmour.Text = producto.Cant.ToString();
+                        break;
+                    case "quebec":
+                        txt_cQuebec.Text = producto.Cant.ToString();
+                        break;
+                }
+            }
+        }
+
+        private string GetProductCantidad(string productName)
+        {
+            var producto = Productos?.Find(item => item.Product == productName);
+            return producto?.Cant.ToString() ?? "No disponible";
+        }
+        public void ModificarProductos()
+        {
+            if (Productos != null && Productos.Count > 0)
+            {
+                // Iterar sobre todos los productos
+                foreach (var producto in Productos)
+                {
+                    // Buscar y actualizar la cantidad
+                    string nombreCantidad = $"txt_c{producto.Product.Replace(" ", "").Replace("'", "").Replace("´", "")}";
+                    var txtCantidad = FindControlRecursive(this, nombreCantidad) as TextBox;
+                    if (txtCantidad != null && int.TryParse(txtCantidad.Text, out int cantidad))
+                    {
+                        producto.Cant = cantidad;
+                    }
+
+                    // Buscar y actualizar el precio
+                    string nombrePrecio = $"txt_p{producto.Product.Replace(" ", "").Replace("'", "").Replace("´", "")}";
+                    var txtPrecio = FindControlRecursive(this, nombrePrecio) as TextBox;
+                    if (txtPrecio != null && decimal.TryParse(txtPrecio.Text, out decimal precio))
+                    {
+                        producto.Price = precio;
+                    }
+                }
+
+                // Guardar los cambios en el archivo JSON
+                ActualizarJson();
+                MessageBox.Show("Productos actualizados correctamente.");
+            }
+        }
+
+        // Método para buscar un control dentro del formulario de manera recursiva
+        private Control FindControlRecursive(Control parent, string name)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control.Name == name)
+                {
+                    return control;
+                }
+
+                // Buscar recursivamente en los controles hijos
+                var child = FindControlRecursive(control, name);
+                if (child != null)
+                {
+                    return child;
+                }
+            }
+            return null;
         }
     }
 }
+

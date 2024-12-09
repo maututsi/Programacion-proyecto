@@ -43,3 +43,4 @@ D:\Progre\Programacion-proyecto\Proyecto final - Fundamentos de programación\Pr
 D:\Progre\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.pdb
 D:\Progre\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Form2.resources
 D:\Progre\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Productos.resources
+D:\Progre\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Usuarios.resources
