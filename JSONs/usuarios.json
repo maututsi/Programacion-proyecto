@@ -10,11 +10,5 @@
     "clave": "4321",
     "contraseña": "989898",
     "rol": "admin"
-  },
-  {
-    "nombre": "JamesBond",
-    "clave": "007",
-    "contraseña": "007",
-    "rol": "Manager"
   }
 ]

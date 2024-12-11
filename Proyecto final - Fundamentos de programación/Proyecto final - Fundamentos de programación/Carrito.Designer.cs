@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pan20 = new System.Windows.Forms.Panel();
             this.precio20 = new System.Windows.Forms.Label();
             this.titulo20 = new System.Windows.Forms.Label();
@@ -114,7 +115,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.Total = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pan20.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xbox20)).BeginInit();
@@ -185,10 +185,21 @@
             this.panel1.Controls.Add(this.pan14);
             this.panel1.Controls.Add(this.pan13);
             this.panel1.Location = new System.Drawing.Point(29, 27);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(876, 439);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("DM Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(25, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(515, 21);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Haz doble click en el panel de una canción para eliminarla del carrito";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // pan20
             // 
@@ -197,7 +208,7 @@
             this.pan20.Controls.Add(this.titulo20);
             this.pan20.Controls.Add(this.xbox20);
             this.pan20.Location = new System.Drawing.Point(6728, 137);
-            this.pan20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan20.Margin = new System.Windows.Forms.Padding(4);
             this.pan20.Name = "pan20";
             this.pan20.Size = new System.Drawing.Size(323, 254);
             this.pan20.TabIndex = 20;
@@ -229,7 +240,7 @@
             // xbox20
             // 
             this.xbox20.Location = new System.Drawing.Point(4, 4);
-            this.xbox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox20.Margin = new System.Windows.Forms.Padding(4);
             this.xbox20.Name = "xbox20";
             this.xbox20.Size = new System.Drawing.Size(160, 148);
             this.xbox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -243,7 +254,7 @@
             this.pan10.Controls.Add(this.titulo10);
             this.pan10.Controls.Add(this.xbox10);
             this.pan10.Location = new System.Drawing.Point(3197, 139);
-            this.pan10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan10.Margin = new System.Windows.Forms.Padding(4);
             this.pan10.Name = "pan10";
             this.pan10.Size = new System.Drawing.Size(323, 254);
             this.pan10.TabIndex = 10;
@@ -275,7 +286,7 @@
             // xbox10
             // 
             this.xbox10.Location = new System.Drawing.Point(4, 4);
-            this.xbox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox10.Margin = new System.Windows.Forms.Padding(4);
             this.xbox10.Name = "xbox10";
             this.xbox10.Size = new System.Drawing.Size(160, 148);
             this.xbox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -289,7 +300,7 @@
             this.pan9.Controls.Add(this.titulo9);
             this.pan9.Controls.Add(this.xbox9);
             this.pan9.Location = new System.Drawing.Point(2843, 139);
-            this.pan9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan9.Margin = new System.Windows.Forms.Padding(4);
             this.pan9.Name = "pan9";
             this.pan9.Size = new System.Drawing.Size(323, 254);
             this.pan9.TabIndex = 9;
@@ -321,7 +332,7 @@
             // xbox9
             // 
             this.xbox9.Location = new System.Drawing.Point(4, 4);
-            this.xbox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox9.Margin = new System.Windows.Forms.Padding(4);
             this.xbox9.Name = "xbox9";
             this.xbox9.Size = new System.Drawing.Size(160, 148);
             this.xbox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -335,7 +346,7 @@
             this.pan19.Controls.Add(this.titulo19);
             this.pan19.Controls.Add(this.xbox19);
             this.pan19.Location = new System.Drawing.Point(6373, 137);
-            this.pan19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan19.Margin = new System.Windows.Forms.Padding(4);
             this.pan19.Name = "pan19";
             this.pan19.Size = new System.Drawing.Size(323, 254);
             this.pan19.TabIndex = 19;
@@ -367,7 +378,7 @@
             // xbox19
             // 
             this.xbox19.Location = new System.Drawing.Point(4, 4);
-            this.xbox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox19.Margin = new System.Windows.Forms.Padding(4);
             this.xbox19.Name = "xbox19";
             this.xbox19.Size = new System.Drawing.Size(160, 148);
             this.xbox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -381,7 +392,7 @@
             this.pan8.Controls.Add(this.titulo8);
             this.pan8.Controls.Add(this.xbox8);
             this.pan8.Location = new System.Drawing.Point(2489, 139);
-            this.pan8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan8.Margin = new System.Windows.Forms.Padding(4);
             this.pan8.Name = "pan8";
             this.pan8.Size = new System.Drawing.Size(323, 254);
             this.pan8.TabIndex = 7;
@@ -413,7 +424,7 @@
             // xbox8
             // 
             this.xbox8.Location = new System.Drawing.Point(4, 4);
-            this.xbox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox8.Margin = new System.Windows.Forms.Padding(4);
             this.xbox8.Name = "xbox8";
             this.xbox8.Size = new System.Drawing.Size(160, 148);
             this.xbox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -427,7 +438,7 @@
             this.pan7.Controls.Add(this.titulo7);
             this.pan7.Controls.Add(this.xbox7);
             this.pan7.Location = new System.Drawing.Point(2144, 139);
-            this.pan7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan7.Margin = new System.Windows.Forms.Padding(4);
             this.pan7.Name = "pan7";
             this.pan7.Size = new System.Drawing.Size(323, 254);
             this.pan7.TabIndex = 8;
@@ -459,7 +470,7 @@
             // xbox7
             // 
             this.xbox7.Location = new System.Drawing.Point(4, 4);
-            this.xbox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox7.Margin = new System.Windows.Forms.Padding(4);
             this.xbox7.Name = "xbox7";
             this.xbox7.Size = new System.Drawing.Size(160, 148);
             this.xbox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -473,7 +484,7 @@
             this.pan18.Controls.Add(this.titulo18);
             this.pan18.Controls.Add(this.xbox18);
             this.pan18.Location = new System.Drawing.Point(6020, 137);
-            this.pan18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan18.Margin = new System.Windows.Forms.Padding(4);
             this.pan18.Name = "pan18";
             this.pan18.Size = new System.Drawing.Size(323, 254);
             this.pan18.TabIndex = 17;
@@ -505,7 +516,7 @@
             // xbox18
             // 
             this.xbox18.Location = new System.Drawing.Point(4, 4);
-            this.xbox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox18.Margin = new System.Windows.Forms.Padding(4);
             this.xbox18.Name = "xbox18";
             this.xbox18.Size = new System.Drawing.Size(160, 148);
             this.xbox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -519,7 +530,7 @@
             this.pan6.Controls.Add(this.titulo6);
             this.pan6.Controls.Add(this.xbox6);
             this.pan6.Location = new System.Drawing.Point(1787, 139);
-            this.pan6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan6.Margin = new System.Windows.Forms.Padding(4);
             this.pan6.Name = "pan6";
             this.pan6.Size = new System.Drawing.Size(323, 254);
             this.pan6.TabIndex = 6;
@@ -551,7 +562,7 @@
             // xbox6
             // 
             this.xbox6.Location = new System.Drawing.Point(4, 4);
-            this.xbox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox6.Margin = new System.Windows.Forms.Padding(4);
             this.xbox6.Name = "xbox6";
             this.xbox6.Size = new System.Drawing.Size(160, 148);
             this.xbox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -565,7 +576,7 @@
             this.pan5.Controls.Add(this.titulo5);
             this.pan5.Controls.Add(this.xbox5);
             this.pan5.Location = new System.Drawing.Point(1433, 142);
-            this.pan5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan5.Margin = new System.Windows.Forms.Padding(4);
             this.pan5.Name = "pan5";
             this.pan5.Size = new System.Drawing.Size(323, 254);
             this.pan5.TabIndex = 5;
@@ -597,7 +608,7 @@
             // xbox5
             // 
             this.xbox5.Location = new System.Drawing.Point(4, 4);
-            this.xbox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox5.Margin = new System.Windows.Forms.Padding(4);
             this.xbox5.Name = "xbox5";
             this.xbox5.Size = new System.Drawing.Size(160, 148);
             this.xbox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -611,7 +622,7 @@
             this.pan17.Controls.Add(this.titulo17);
             this.pan17.Controls.Add(this.xbox17);
             this.pan17.Location = new System.Drawing.Point(5675, 137);
-            this.pan17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan17.Margin = new System.Windows.Forms.Padding(4);
             this.pan17.Name = "pan17";
             this.pan17.Size = new System.Drawing.Size(323, 254);
             this.pan17.TabIndex = 18;
@@ -643,7 +654,7 @@
             // xbox17
             // 
             this.xbox17.Location = new System.Drawing.Point(4, 4);
-            this.xbox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox17.Margin = new System.Windows.Forms.Padding(4);
             this.xbox17.Name = "xbox17";
             this.xbox17.Size = new System.Drawing.Size(160, 148);
             this.xbox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -657,7 +668,7 @@
             this.pan4.Controls.Add(this.titulo4);
             this.pan4.Controls.Add(this.xbox4);
             this.pan4.Location = new System.Drawing.Point(1079, 142);
-            this.pan4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan4.Margin = new System.Windows.Forms.Padding(4);
             this.pan4.Name = "pan4";
             this.pan4.Size = new System.Drawing.Size(323, 254);
             this.pan4.TabIndex = 4;
@@ -689,7 +700,7 @@
             // xbox4
             // 
             this.xbox4.Location = new System.Drawing.Point(4, 4);
-            this.xbox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox4.Margin = new System.Windows.Forms.Padding(4);
             this.xbox4.Name = "xbox4";
             this.xbox4.Size = new System.Drawing.Size(160, 148);
             this.xbox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -703,7 +714,7 @@
             this.pan15.Controls.Add(this.titulo15);
             this.pan15.Controls.Add(this.xbox15);
             this.pan15.Location = new System.Drawing.Point(4964, 139);
-            this.pan15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan15.Margin = new System.Windows.Forms.Padding(4);
             this.pan15.Name = "pan15";
             this.pan15.Size = new System.Drawing.Size(323, 254);
             this.pan15.TabIndex = 15;
@@ -735,7 +746,7 @@
             // xbox15
             // 
             this.xbox15.Location = new System.Drawing.Point(4, 4);
-            this.xbox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox15.Margin = new System.Windows.Forms.Padding(4);
             this.xbox15.Name = "xbox15";
             this.xbox15.Size = new System.Drawing.Size(160, 148);
             this.xbox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -749,7 +760,7 @@
             this.pan3.Controls.Add(this.titulo3);
             this.pan3.Controls.Add(this.xbox3);
             this.pan3.Location = new System.Drawing.Point(725, 142);
-            this.pan3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan3.Margin = new System.Windows.Forms.Padding(4);
             this.pan3.Name = "pan3";
             this.pan3.Size = new System.Drawing.Size(323, 254);
             this.pan3.TabIndex = 3;
@@ -782,7 +793,7 @@
             // xbox3
             // 
             this.xbox3.Location = new System.Drawing.Point(4, 4);
-            this.xbox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox3.Margin = new System.Windows.Forms.Padding(4);
             this.xbox3.Name = "xbox3";
             this.xbox3.Size = new System.Drawing.Size(160, 148);
             this.xbox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -796,7 +807,7 @@
             this.pan16.Controls.Add(this.titulo16);
             this.pan16.Controls.Add(this.xbox16);
             this.pan16.Location = new System.Drawing.Point(5317, 137);
-            this.pan16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan16.Margin = new System.Windows.Forms.Padding(4);
             this.pan16.Name = "pan16";
             this.pan16.Size = new System.Drawing.Size(323, 254);
             this.pan16.TabIndex = 16;
@@ -828,7 +839,7 @@
             // xbox16
             // 
             this.xbox16.Location = new System.Drawing.Point(4, 4);
-            this.xbox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox16.Margin = new System.Windows.Forms.Padding(4);
             this.xbox16.Name = "xbox16";
             this.xbox16.Size = new System.Drawing.Size(160, 148);
             this.xbox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -842,7 +853,7 @@
             this.pan2.Controls.Add(this.titulo2);
             this.pan2.Controls.Add(this.xbox2);
             this.pan2.Location = new System.Drawing.Point(380, 142);
-            this.pan2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan2.Margin = new System.Windows.Forms.Padding(4);
             this.pan2.Name = "pan2";
             this.pan2.Size = new System.Drawing.Size(323, 254);
             this.pan2.TabIndex = 3;
@@ -875,7 +886,7 @@
             // xbox2
             // 
             this.xbox2.Location = new System.Drawing.Point(4, 4);
-            this.xbox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox2.Margin = new System.Windows.Forms.Padding(4);
             this.xbox2.Name = "xbox2";
             this.xbox2.Size = new System.Drawing.Size(160, 148);
             this.xbox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -889,7 +900,7 @@
             this.pan11.Controls.Add(this.titulo11);
             this.pan11.Controls.Add(this.xbox11);
             this.pan11.Location = new System.Drawing.Point(3553, 139);
-            this.pan11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan11.Margin = new System.Windows.Forms.Padding(4);
             this.pan11.Name = "pan11";
             this.pan11.Size = new System.Drawing.Size(323, 254);
             this.pan11.TabIndex = 11;
@@ -921,7 +932,7 @@
             // xbox11
             // 
             this.xbox11.Location = new System.Drawing.Point(4, 4);
-            this.xbox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox11.Margin = new System.Windows.Forms.Padding(4);
             this.xbox11.Name = "xbox11";
             this.xbox11.Size = new System.Drawing.Size(160, 148);
             this.xbox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -935,7 +946,7 @@
             this.pan1.Controls.Add(this.titulo1);
             this.pan1.Controls.Add(this.xbox1);
             this.pan1.Location = new System.Drawing.Point(23, 142);
-            this.pan1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan1.Margin = new System.Windows.Forms.Padding(4);
             this.pan1.Name = "pan1";
             this.pan1.Size = new System.Drawing.Size(323, 254);
             this.pan1.TabIndex = 2;
@@ -969,7 +980,7 @@
             // xbox1
             // 
             this.xbox1.Location = new System.Drawing.Point(4, 4);
-            this.xbox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox1.Margin = new System.Windows.Forms.Padding(4);
             this.xbox1.Name = "xbox1";
             this.xbox1.Size = new System.Drawing.Size(160, 148);
             this.xbox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -983,7 +994,7 @@
             this.pan12.Controls.Add(this.titulo12);
             this.pan12.Controls.Add(this.xbox12);
             this.pan12.Location = new System.Drawing.Point(3911, 139);
-            this.pan12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan12.Margin = new System.Windows.Forms.Padding(4);
             this.pan12.Name = "pan12";
             this.pan12.Size = new System.Drawing.Size(323, 254);
             this.pan12.TabIndex = 13;
@@ -1015,7 +1026,7 @@
             // xbox12
             // 
             this.xbox12.Location = new System.Drawing.Point(4, 4);
-            this.xbox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox12.Margin = new System.Windows.Forms.Padding(4);
             this.xbox12.Name = "xbox12";
             this.xbox12.Size = new System.Drawing.Size(160, 148);
             this.xbox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1041,7 +1052,7 @@
             this.pan14.Controls.Add(this.titulo14);
             this.pan14.Controls.Add(this.xbox14);
             this.pan14.Location = new System.Drawing.Point(4609, 139);
-            this.pan14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan14.Margin = new System.Windows.Forms.Padding(4);
             this.pan14.Name = "pan14";
             this.pan14.Size = new System.Drawing.Size(323, 254);
             this.pan14.TabIndex = 14;
@@ -1073,7 +1084,7 @@
             // xbox14
             // 
             this.xbox14.Location = new System.Drawing.Point(4, 4);
-            this.xbox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox14.Margin = new System.Windows.Forms.Padding(4);
             this.xbox14.Name = "xbox14";
             this.xbox14.Size = new System.Drawing.Size(160, 148);
             this.xbox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1087,7 +1098,7 @@
             this.pan13.Controls.Add(this.titulo13);
             this.pan13.Controls.Add(this.xbox13);
             this.pan13.Location = new System.Drawing.Point(4256, 139);
-            this.pan13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pan13.Margin = new System.Windows.Forms.Padding(4);
             this.pan13.Name = "pan13";
             this.pan13.Size = new System.Drawing.Size(323, 254);
             this.pan13.TabIndex = 12;
@@ -1119,7 +1130,7 @@
             // xbox13
             // 
             this.xbox13.Location = new System.Drawing.Point(4, 4);
-            this.xbox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.xbox13.Margin = new System.Windows.Forms.Padding(4);
             this.xbox13.Name = "xbox13";
             this.xbox13.Size = new System.Drawing.Size(160, 148);
             this.xbox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1167,17 +1178,6 @@
             this.Total.Text = "label1";
             this.Total.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("DM Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 93);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(515, 21);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Haz doble click en el panel de una canción para eliminarla del carrito";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
-            // 
             // Carrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1188,7 +1188,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Carrito";
             this.Text = "Carrito";
             this.Load += new System.EventHandler(this.Carrito_Load);

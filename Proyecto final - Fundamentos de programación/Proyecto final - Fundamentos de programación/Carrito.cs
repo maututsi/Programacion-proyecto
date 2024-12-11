@@ -16,8 +16,7 @@ namespace Proyecto_final___Fundamentos_de_programación
         public bool pagarEfectivo = false;
         public bool pagarTarjeta = false;
         public bool regresarACatalogo = false;
-        public bool reiniciarVentana = false;
-        public int pagoTotal;
+        public static int pagoTotal;
 
         public Carrito()
         {
@@ -122,160 +121,162 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         private void pan1_DClick(object sender, EventArgs e)
         {
-            carritoDeCatalogo.RemoveAt(0);
-            this.Close();
-            reiniciarVentana = true;
+            catalogo.carrito.RemoveAt(0);
+
+            mostrarCarrito();
         }
 
         private void pan2_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(1);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
         }
 
         private void pan3_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(2);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan4_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(3);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan5_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(4);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan6_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(5);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan7_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(6);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan8_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(7);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan9_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(8);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan10_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(9);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan11_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(10);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan12_Click(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(11);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan13_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(12);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan14_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(13);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan15_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(14);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan16_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(15);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan17_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(16);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan18_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(17);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan19_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(18);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void pan20_DClick(object sender, EventArgs e)
         {
             carritoDeCatalogo.RemoveAt(19);
-            this.Close();
-            reiniciarVentana = true;
+            mostrarCarrito();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             pagarEfectivo = true;
-            this.Close();
+            mostrarCarrito();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            catalogo catalogoWind = new catalogo();
             pagarTarjeta = true;
             this.Close();
+            catalogoWind.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            regresarACatalogo = true;
-            this.Close();
+            catalogo catalogoWind = new catalogo();
+            catalogoWind.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -284,6 +285,11 @@ namespace Proyecto_final___Fundamentos_de_programación
         }
 
         private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

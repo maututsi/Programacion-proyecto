@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 
 namespace Proyecto_final___Fundamentos_de_programación
 {
-    public class Productos
+    public class Productos1
     {
         public string Product { get; set; }
         public decimal Price { get; set; }
@@ -22,7 +22,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
     public partial class Rellenar : Form
     {
-        List<Productos> Productos;
+        List<Productos1> Productos;
 
         public Rellenar()
         {
@@ -74,17 +74,17 @@ namespace Proyecto_final___Fundamentos_de_programación
                 if (string.IsNullOrEmpty(json))
                 {
                     MessageBox.Show("El archivo JSON está vacío.");
-                    Productos = new List<Productos>();
+                    Productos = new List<Productos1>();
                 }
                 else
                 {
-                    Productos = JsonConvert.DeserializeObject<List<Productos>>(json) ?? new List<Productos>();
+                    Productos = JsonConvert.DeserializeObject<List<Productos1>>(json) ?? new List<Productos1>();
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al cargar el archivo JSON: " + ex.Message);
-                Productos = new List<Productos>();
+                Productos = new List<Productos1>();
             }
         }
 

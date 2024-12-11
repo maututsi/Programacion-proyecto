@@ -55,6 +55,12 @@
     <Compile Include="Carrito.Designer.cs">
       <DependentUpon>Carrito.cs</DependentUpon>
     </Compile>
+    <Compile Include="carritofinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carritofinal.Designer.cs">
+      <DependentUpon>carritofinal.cs</DependentUpon>
+    </Compile>
     <Compile Include="catalogo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     <EmbeddedResource Include="Carrito.resx">
       <DependentUpon>Carrito.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="carritofinal.resx">
+      <DependentUpon>carritofinal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="catalogo.resx">
       <DependentUpon>catalogo.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +123,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagoEfectivo.resx">
+      <DependentUpon>PagoEfectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagoTarjeta.resx">
+      <DependentUpon>PagoTarjeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -213,6 +228,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cuaremtayveinte.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarjetas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

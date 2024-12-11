@@ -17,24 +17,12 @@ namespace Proyecto_final___Fundamentos_de_programación
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 form1 = new Form1();
+            Form2 form2 = new Form2();
             Application.Run(form1);
             PagoTarjeta pagotarjeta = new PagoTarjeta();
             catalogo catalogoWind = new catalogo();
-            catalogo catalogoWind1 = new catalogo();
-            catalogo catalogoWind2 = new catalogo();
-            catalogo catalogoWind3 = new catalogo();
-            catalogo catalogoWind4 = new catalogo();
-            catalogo catalogoWind5 = new catalogo();
-            catalogo catalogoWind6 = new catalogo();
-            catalogo catalogoWind7 = new catalogo();
-            Carrito carrito = new Carrito();
-            Carrito carrito1 = new Carrito();
-            Carrito carrito2 = new Carrito();
-            Carrito carrito3 = new Carrito();
-            Carrito carrito4 = new Carrito();
-            Carrito carrito5 = new Carrito();
-            Carrito carrito6 = new Carrito();
-            Carrito carrito7 = new Carrito();
+            carritofinal carritoFinal = new carritofinal();
+            PagoEfectivo pagoEfectivo = new PagoEfectivo();
 
 
             if (form1.ingresoEmpleado)
@@ -43,112 +31,21 @@ namespace Proyecto_final___Fundamentos_de_programación
             }
             else if (form1.ingresoAdmin)
             {
-                Application.Run();
+                Application.Run(form2);
             }
 
             if (catalogoWind.irAlCarrito)
             {
-                Application.Run(carrito);
+                Application.Run(carritoFinal);
             }
 
-            if (carrito.pagarTarjeta)
+            if (carritoFinal.irAtarjeta)
             {
                 Application.Run(pagotarjeta);
             }
-
-            if (carrito.regresarACatalogo)
+            else if (carritoFinal.irAEfectivo)
             {
-                Application.Run(catalogoWind1);
-            }
-
-            if (catalogoWind1.irAlCarrito)
-            {
-                Application.Run(carrito1);
-            }
-
-            if (carrito1.regresarACatalogo)
-            {
-                Application.Run(catalogoWind2);
-            }
-
-            if (catalogoWind2.irAlCarrito)
-            {
-                Application.Run(carrito3);
-            }
-
-            if (carrito3.regresarACatalogo)
-            {
-                Application.Run(catalogoWind3);
-            }
-
-            if (catalogoWind3.irAlCarrito)
-            {
-                Application.Run(carrito4);
-            }
-
-            if (carrito4.regresarACatalogo)
-            {
-                Application.Run(catalogoWind4);
-            }
-
-            if (catalogoWind4.irAlCarrito)
-            {
-                Application.Run(carrito5);
-            }
-
-            if (carrito5.regresarACatalogo)
-            {
-                Application.Run(catalogoWind5);
-            }
-
-            if (catalogoWind5.irAlCarrito)
-            {
-                Application.Run(carrito6);
-            }
-
-            if (carrito6.regresarACatalogo)
-            {
-                Application.Run(catalogoWind6);
-            }
-
-            if (catalogoWind6.irAlCarrito)
-            {
-                Application.Run(carrito7);
-            }
-
-            if (carrito.reiniciarVentana)
-            {
-                Application.Run(carrito1);
-            }
-
-            if (carrito1.reiniciarVentana)
-            {
-                Application.Run(carrito2);
-            }
-
-            if (carrito2.reiniciarVentana)
-            {
-                Application.Run(carrito3);
-            }
-
-            if (carrito3.reiniciarVentana)
-            {
-                Application.Run(carrito4);
-            }
-
-            if (carrito4.reiniciarVentana)
-            {
-                Application.Run(carrito5);
-            }
-
-            if (carrito5.reiniciarVentana)
-            {
-                Application.Run(carrito6);
-            }
-
-            if (carrito6.reiniciarVentana)
-            {
-                Application.Run(carrito7);
+                Application.Run(pagoEfectivo);
             }
         }
     }

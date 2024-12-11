@@ -243,6 +243,16 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tarjetas {
+            get {
+                object obj = ResourceManager.GetObject("tarjetas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ten {
             get {
                 object obj = ResourceManager.GetObject("ten", resourceCulture);
