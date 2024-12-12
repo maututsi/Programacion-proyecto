@@ -21,7 +21,7 @@
     "fecha": "1970",
     "precio": "399",
     "imagen": "All_Things_Must_Pass_BW",
-    "ventas": 0
+    "ventas": 4
   },
   {
     "titulo": "Heaven or Las Vegas",
@@ -45,7 +45,7 @@
     "fecha": "2019",
     "precio": "599",
     "imagen": "titanic rising",
-    "ventas": 0
+    "ventas": 2
   },
   {
     "titulo": "deathconsciousness",
@@ -125,7 +125,7 @@
     "fecha": "2017",
     "precio": "199",
     "imagen": "imperfecto extraño",
-    "ventas": 0
+    "ventas": 1
   },
   {
     "titulo": "Plastic Beach",
@@ -133,7 +133,7 @@
     "fecha": "2010",
     "precio": "199",
     "imagen": "plastic beach",
-    "ventas": 0
+    "ventas": 1
   },
   {
     "titulo": "40 y 20",

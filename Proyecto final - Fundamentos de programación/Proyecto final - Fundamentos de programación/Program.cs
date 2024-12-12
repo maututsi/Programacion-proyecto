@@ -39,11 +39,6 @@ namespace Proyecto_final___Fundamentos_de_programación
             {
                 Application.Run(agregarTarjeta);
             }
-
-            if (form2.salir || catalogoWind.salir)
-            {
-                Application.Exit();
-            }
         }
     }
 }

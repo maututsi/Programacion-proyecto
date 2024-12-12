@@ -8,12 +8,17 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace Proyecto_final___Fundamentos_de_programación
 {
     public partial class PagoEfectivo : Form
     {
+        private List<Productos> productosComprados = new List<Productos>();
+
         private string[] cantidades = new string[100];
+
+        public Compra compra = new Compra();
 
         public PagoEfectivo()
         {
@@ -143,12 +148,50 @@ namespace Proyecto_final___Fundamentos_de_programación
             {
                 MessageBox.Show("Dar $" + (dineroRecibido - importeFinal) + " de cambio", "Cambio", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MessageBox.Show("¡Venta concretada con éxito!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+
+                string jsonFile = @"..\\..\\..\\..\\JSONs\\compras.json";
+                string jsonCompras = System.IO.File.ReadAllText(jsonFile);
+                List<Compra> compras = JsonConvert.DeserializeObject<List<Compra>>(jsonCompras);
+
+                string nombreUsuario = Form1.nombre;
+                string claveUsuario = Form1.clave;
+
+                compra.name = nombreUsuario;
+                compra.clave = claveUsuario;
+                compra.total = calcularTotal();
+                compras.Add(compra);
+
+                string jsonActualizar = JsonConvert.SerializeObject(compras, Formatting.Indented);
+                System.IO.File.WriteAllText(jsonFile, jsonActualizar);
+
+                actualizarVentas();
                 this.Hide();
                 catalogo catalogoo = new catalogo();
                 catalogo.carrito.Clear();
                 carritofinal.total = 0;
                 catalogoo.Show();
             }
+        }
+
+        private void actualizarVentas()
+        {
+            string JSONfile = @"..\\..\\..\\..\\JSONs\\cds.json";
+            string jsonCDs = System.IO.File.ReadAllText(JSONfile);
+            Productos[] CDs = JsonConvert.DeserializeObject<Productos[]>(jsonCDs);
+
+            foreach (Productos p in CDs)
+            {
+                foreach (Productos producto in catalogo.carrito)
+                {
+                    if (producto.titulo == p.titulo)
+                    {
+                        p.ventas++;
+                    }
+                }
+            }
+
+            string jsonActualizar = JsonConvert.SerializeObject(CDs, Formatting.Indented);
+            System.IO.File.WriteAllText(JSONfile, jsonActualizar);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -237,5 +280,11 @@ namespace Proyecto_final___Fundamentos_de_programación
             carritofinal.total = 0;
             catalogoo.Show();
         }
+    }
+
+    public class Compra
+    {
+        public string name, clave;
+        public double total;
     }
 }

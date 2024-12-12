@@ -33,14 +33,21 @@ namespace Proyecto_final___Fundamentos_de_programación
             dataGridView1.AutoGenerateColumns = true;
             dataGridView1.ReadOnly = true;
             dataGridView1.AllowUserToAddRows = false;
+
+            dataGridView2.AutoGenerateColumns = true;
+            dataGridView2.ReadOnly = true;
+            dataGridView2.AllowUserToAddRows = false;
         }
 
         private void DescargarListaVentas()
         {
-            string fileJson = @"..\\..\\..\\..\\JSONs\cds.json";
+            string fileJson = @"..\\..\\..\\..\\JSONs\compras.json";
             string json = System.IO.File.ReadAllText(fileJson);
             dataGridView1.DataSource = JsonConvert.DeserializeObject<DataTable>(json);
 
+            string archivoJson = @"..\\..\\..\\..\\JSONs\cds.json";
+            string yeison = System.IO.File.ReadAllText(archivoJson);
+            dataGridView2.DataSource = JsonConvert.DeserializeObject<DataTable>(yeison);
         } 
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -56,6 +63,10 @@ namespace Proyecto_final___Fundamentos_de_programación
                 
         }
 
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 
     public class ventas

@@ -15,8 +15,6 @@ namespace Proyecto_final___Fundamentos_de_programación
 {
     public partial class catalogo : Form
     {
-        public bool salir = false;
-
         private int cant = 0;
 
         private PagoTarjeta formTarjeta = null;
@@ -495,8 +493,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            salir = true;
-            this.Close();
+            Application.Exit();
         }
     }
 

@@ -12,8 +12,6 @@ namespace Proyecto_final___Fundamentos_de_programación
 {
     public partial class Form2 : Form
     {
-        public bool salir = false;
-
         public Form2()
         {
             InitializeComponent();
@@ -48,7 +46,7 @@ namespace Proyecto_final___Fundamentos_de_programación
         private void button4_Click(object sender, EventArgs e)
         {
             this.Close();
-            salir = true;
+            Application.Exit();
         }
     }   
 }

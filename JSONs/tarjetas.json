@@ -16,5 +16,11 @@
     "tipo": "credito",
     "nip": "333",
     "fondos": 284.20000000000005
+  },
+  {
+    "numero": "123456",
+    "tipo": "debito",
+    "nip": "852",
+    "fondos": 800.0
   }
 ]

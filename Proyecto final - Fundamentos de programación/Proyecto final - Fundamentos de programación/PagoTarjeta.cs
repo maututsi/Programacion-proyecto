@@ -18,6 +18,8 @@ namespace Proyecto_final___Fundamentos_de_programación
         private bool propina20 = false;
         public bool agregarTarjeta = false;
         public string typTarjeta;
+        private List<Productos> productosComprados = new List<Productos>();
+        Compra compra = new Compra();
 
         public PagoTarjeta()
         {
@@ -64,6 +66,20 @@ namespace Proyecto_final___Fundamentos_de_programación
                             System.IO.File.WriteAllText(jsonFile, actualizarJson);
                             MessageBox.Show("¡Operación realizada con éxito! Gracias por la compra", "Transacción exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             tarjetaEncontrada = true;
+
+                            string jsonArchivo = @"..\\..\\..\\..\\JSONs\\compras.json";
+                            string jsonCompras = System.IO.File.ReadAllText(jsonArchivo);
+                            List<Compra> compras = JsonConvert.DeserializeObject<List<Compra>>(jsonCompras);
+
+                            compra.name = Form1.nombre;
+                            compra.clave = Form1.clave;
+                            compra.total = calcularTotal();
+                            compras.Add(compra);
+
+                            string jsonActualizar = JsonConvert.SerializeObject(compras, Formatting.Indented);
+                            System.IO.File.WriteAllText(jsonArchivo, jsonActualizar);
+
+                            actualizarVentas();
                             this.Hide();
                             catalogo catalogoo = new catalogo();
                             catalogo.carrito.Clear();
@@ -113,6 +129,27 @@ namespace Proyecto_final___Fundamentos_de_programación
             label4.Text = "Importe total: $" + cantAPagar.ToString();
 
             return cantAPagar;
+        }
+
+        private void actualizarVentas()
+        {
+            string JSONfile = @"..\\..\\..\\..\\JSONs\\cds.json";
+            string jsonCDs = System.IO.File.ReadAllText(JSONfile);
+            Productos[] CDs = JsonConvert.DeserializeObject<Productos[]>(jsonCDs);
+
+            foreach (Productos p in CDs)
+            {
+                foreach (Productos producto in catalogo.carrito)
+                {
+                    if (producto.titulo == p.titulo)
+                    {
+                        p.ventas++;
+                    }
+                }
+            }
+
+            string jsonActualizar = JsonConvert.SerializeObject(CDs, Formatting.Indented);
+            System.IO.File.WriteAllText(JSONfile, jsonActualizar);
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

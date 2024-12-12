@@ -15,6 +15,8 @@ namespace Proyecto_final___Fundamentos_de_programación
     {
         public bool ingresoEmpleado = false;
         public bool ingresoAdmin = false;
+        public static string nombre;
+        public static string clave;
 
         public Form1()
         {
@@ -62,6 +64,9 @@ namespace Proyecto_final___Fundamentos_de_programación
                     if (user.clave == claveEmpleado && user.contraseña == contraseña)
                     {
                         MessageBox.Show("Bienvenido " + user.nombre, "Ingreso exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        Form1.nombre = user.nombre;
+                        Form1.clave = user.clave;
 
                         if (user.rol == "empleado")
                         {
