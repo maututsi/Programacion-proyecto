@@ -103,6 +103,16 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap carrito {
+            get {
+                object obj = ResourceManager.GetObject("carrito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap charm {
             get {
                 object obj = ResourceManager.GetObject("charm", resourceCulture);
@@ -136,6 +146,36 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         internal static System.Drawing.Bitmap deathconsciousness {
             get {
                 object obj = ResourceManager.GetObject("deathconsciousness", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diezpeso {
+            get {
+                object obj = ResourceManager.GetObject("diezpeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dosientopeso {
+            get {
+                object obj = ResourceManager.GetObject("dosientopeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dospeso {
+            get {
+                object obj = ResourceManager.GetObject("dospeso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +233,16 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap milpeso {
+            get {
+                object obj = ResourceManager.GetObject("milpeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap monster {
             get {
                 object obj = ResourceManager.GetObject("monster", resourceCulture);
@@ -206,6 +256,16 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         internal static System.Drawing.Bitmap my_cherie_amour {
             get {
                 object obj = ResourceManager.GetObject("my cherie amour", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap personitas {
+            get {
+                object obj = ResourceManager.GetObject("personitas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,6 +296,46 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         internal static System.Drawing.Bitmap quebec {
             get {
                 object obj = ResourceManager.GetObject("quebec", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quinientopeso {
+            get {
+                object obj = ResourceManager.GetObject("quinientopeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sienpeso {
+            get {
+                object obj = ResourceManager.GetObject("sienpeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sincopeso {
+            get {
+                object obj = ResourceManager.GetObject("sincopeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sincuentapeso {
+            get {
+                object obj = ResourceManager.GetObject("sincuentapeso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -276,6 +376,26 @@ namespace Proyecto_final___Fundamentos_de_programación.Properties {
         internal static System.Drawing.Bitmap titanic_rising {
             get {
                 object obj = ResourceManager.GetObject("titanic rising", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unpeso {
+            get {
+                object obj = ResourceManager.GetObject("unpeso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap veintepeso {
+            get {
+                object obj = ResourceManager.GetObject("veintepeso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

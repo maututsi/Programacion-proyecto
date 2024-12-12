@@ -19,10 +19,11 @@ namespace Proyecto_final___Fundamentos_de_programación
             Form1 form1 = new Form1();
             Form2 form2 = new Form2();
             Application.Run(form1);
-            PagoTarjeta pagotarjeta = new PagoTarjeta();
             catalogo catalogoWind = new catalogo();
             carritofinal carritoFinal = new carritofinal();
             PagoEfectivo pagoEfectivo = new PagoEfectivo();
+            PagoTarjeta pagoTarjeta = new PagoTarjeta();
+            Agregar_tarjeta agregarTarjeta = new Agregar_tarjeta();
 
 
             if (form1.ingresoEmpleado)
@@ -34,18 +35,14 @@ namespace Proyecto_final___Fundamentos_de_programación
                 Application.Run(form2);
             }
 
-            if (catalogoWind.irAlCarrito)
+            if (pagoTarjeta.agregarTarjeta)
             {
-                Application.Run(carritoFinal);
+                Application.Run(agregarTarjeta);
             }
 
-            if (carritoFinal.irAtarjeta)
+            if (form2.salir || catalogoWind.salir)
             {
-                Application.Run(pagotarjeta);
-            }
-            else if (carritoFinal.irAEfectivo)
-            {
-                Application.Run(pagoEfectivo);
+                Application.Exit();
             }
         }
     }

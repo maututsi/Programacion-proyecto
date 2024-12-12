@@ -12,8 +12,6 @@ namespace Proyecto_final___Fundamentos_de_programación
 {
     public partial class carritofinal : Form
     {
-        public bool irAtarjeta = false;
-        public bool irAEfectivo = false;
         public static int total = 0;
 
         public carritofinal()
@@ -29,14 +27,16 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         private void button2_Click(object sender, EventArgs e)
         {
-            irAtarjeta = true;
-            this.Close();
+            this.Hide();
+            PagoTarjeta pagotarjeta = new PagoTarjeta();
+            pagotarjeta.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            irAEfectivo = true;
-            this.Close();
+            this.Hide();
+            PagoEfectivo pagoefectivo = new PagoEfectivo();
+            pagoefectivo.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -128,6 +128,15 @@ namespace Proyecto_final___Fundamentos_de_programación
             cargar_carrito();
             vaciar_menus_desplegables();
             cargar_menus_desplegables();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            catalogo catalogoo = new catalogo();
+            catalogo.carrito.Clear();
+            total = 0;
+            catalogoo.Show();
         }
     }
 }

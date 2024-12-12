@@ -28,7 +28,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            Role = "Manager";
+            Role = "admin";
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -38,7 +38,7 @@ namespace Proyecto_final___Fundamentos_de_programación
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            Role = "Employed";
+            Role = "empleado";
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -82,10 +82,17 @@ namespace Proyecto_final___Fundamentos_de_programación
         }
         public void EliminarUsuario()
         {
-            int indiceseleccionado = dataGridView1.SelectedRows[0].Index;
-            users.RemoveAt(indiceseleccionado);
-            GuardarUsuario();
-            DescargarListaUsuarios();
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccione la fila que quiere eliminar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                int indiceseleccionado = dataGridView1.SelectedRows[0].Index;
+                users.RemoveAt(indiceseleccionado);
+                GuardarUsuario();
+                DescargarListaUsuarios();
+            }
         }
         public void GuardarUsuario()
         {
@@ -122,6 +129,13 @@ namespace Proyecto_final___Fundamentos_de_programación
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form2 = new Form2();
+            form2.Show();
         }
     }
 }

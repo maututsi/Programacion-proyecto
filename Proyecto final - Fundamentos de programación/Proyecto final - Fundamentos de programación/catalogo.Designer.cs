@@ -132,12 +132,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Titulo = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
-            this.miniatura = new System.Windows.Forms.PictureBox();
             this.artistaaa = new System.Windows.Forms.Label();
             this.presio = new System.Windows.Forms.Label();
             this.AddToCart = new System.Windows.Forms.Button();
             this.goToCart = new System.Windows.Forms.Button();
             this.warn = new System.Windows.Forms.Label();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.miniatura = new System.Windows.Forms.PictureBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel21.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -179,6 +182,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniatura)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1419,15 +1423,6 @@
             this.label61.TabIndex = 2;
             this.label61.Text = "Catálogo";
             // 
-            // miniatura
-            // 
-            this.miniatura.Location = new System.Drawing.Point(1102, 174);
-            this.miniatura.Name = "miniatura";
-            this.miniatura.Size = new System.Drawing.Size(320, 320);
-            this.miniatura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.miniatura.TabIndex = 3;
-            this.miniatura.TabStop = false;
-            // 
             // artistaaa
             // 
             this.artistaaa.AutoSize = true;
@@ -1484,12 +1479,57 @@
             this.warn.Text = "Producto añadido al carrito";
             this.warn.Visible = false;
             // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::Proyecto_final___Fundamentos_de_programación.Properties.Resources.carrito;
+            this.pictureBox21.Location = new System.Drawing.Point(1093, 723);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(112, 103);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 11;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Visible = false;
+            // 
+            // miniatura
+            // 
+            this.miniatura.Location = new System.Drawing.Point(1102, 174);
+            this.miniatura.Name = "miniatura";
+            this.miniatura.Size = new System.Drawing.Size(320, 320);
+            this.miniatura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.miniatura.TabIndex = 3;
+            this.miniatura.TabStop = false;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.label62.Font = new System.Drawing.Font("DM Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(1161, 741);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(59, 20);
+            this.label62.TabIndex = 12;
+            this.label62.Text = "label62";
+            this.label62.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1366, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Cerrar aplicación";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // catalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1510, 839);
+            this.ClientSize = new System.Drawing.Size(1499, 839);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label62);
+            this.Controls.Add(this.pictureBox21);
             this.Controls.Add(this.warn);
             this.Controls.Add(this.goToCart);
             this.Controls.Add(this.AddToCart);
@@ -1564,6 +1604,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniatura)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1681,5 +1722,8 @@
         private System.Windows.Forms.Button AddToCart;
         private System.Windows.Forms.Button goToCart;
         private System.Windows.Forms.Label warn;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Button button1;
     }
 }

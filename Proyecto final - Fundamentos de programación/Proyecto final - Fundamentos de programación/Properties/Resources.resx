@@ -118,73 +118,109 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cant buy a thrill" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cant buy a thrill.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="plastic beach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plastic beach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="titanic rising" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\titanic rising.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="charm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\charm.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deathconsciousness" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deathconsciousness.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="the bends" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\the bends.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="quebec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quebec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="heaven or las vegas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\heaven or las vegas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="graduation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\graduation.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuaremtayveinte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuaremtayveinte.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vespertine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vespertine.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="atlant mill club" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\atlant mill club.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ten" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ten.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plastic beach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plastic beach1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\monster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imperfecto extraño" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imperfecto extraño.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="midnite vultures" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\midnite vultures.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="veintepeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veintepeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dospeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dospeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atlant mill club" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atlant mill club.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quebec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quebec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dosientopeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dosientopeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="personitas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\personitas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milpeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\milpeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graduation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\graduation.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sincopeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sincopeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charm.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuaremtayveinte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuaremtayveinte.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="40 y 20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\40 y 20.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="my cherie amour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\my cherie amour.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="All_Things_Must_Pass_BW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\All_Things_Must_Pass_BW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="human hymns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\human hymns.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sienpeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sienpeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="coastal grooves" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coastal grooves.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="deathconsciousness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathconsciousness.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="midnite vultures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\midnite vultures.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titanic rising" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titanic rising.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plastic beach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plastic beach1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="All_Things_Must_Pass_BW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\All_Things_Must_Pass_BW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cant buy a thrill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cant buy a thrill.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ten.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="my cherie amour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my cherie amour.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human hymns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human hymns.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tarjetas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarjetas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unpeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unpeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heaven or las vegas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heaven or las vegas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diezpeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diezpeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="the bends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\the bends.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vespertine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vespertine.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sincuentapeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sincuentapeso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quinientopeso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quinientopeso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

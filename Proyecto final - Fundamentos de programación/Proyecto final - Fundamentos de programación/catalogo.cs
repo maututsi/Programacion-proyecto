@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
@@ -14,6 +15,10 @@ namespace Proyecto_final___Fundamentos_de_programación
 {
     public partial class catalogo : Form
     {
+        public bool salir = false;
+
+        private int cant = 0;
+
         private PagoTarjeta formTarjeta = null;
         private PagoEfectivo formEfectivo = null;
 
@@ -473,12 +478,24 @@ namespace Proyecto_final___Fundamentos_de_programación
         {
             carrito.Add(productos[indice]);
             indices.Add(indice);
+            cant++;
+            label62.Text = cant.ToString();
+            label62.Visible = true;
+            pictureBox21.Visible = true;
             warn.Visible = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             irAlCarrito = true;
+            this.Hide();
+            carritofinal carritoFinal = new carritofinal();
+            carritoFinal.Show();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            salir = true;
             this.Close();
         }
     }
@@ -486,5 +503,6 @@ namespace Proyecto_final___Fundamentos_de_programación
     public class Productos
     {
         public string titulo, artista, fecha, precio, imagen;
+        public int ventas;
     }
 }

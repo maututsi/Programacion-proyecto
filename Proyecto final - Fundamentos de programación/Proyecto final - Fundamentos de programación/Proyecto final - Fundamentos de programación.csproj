@@ -49,11 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Carrito.cs">
+    <Compile Include="Agregar tarjeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Carrito.Designer.cs">
-      <DependentUpon>Carrito.cs</DependentUpon>
+    <Compile Include="Agregar tarjeta.Designer.cs">
+      <DependentUpon>Agregar tarjeta.cs</DependentUpon>
     </Compile>
     <Compile Include="carritofinal.cs">
       <SubType>Form</SubType>
@@ -93,7 +93,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rellenar.cs" />
+    <Compile Include="Rellenar.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rellenar.Designer.cs">
       <DependentUpon>Rellenar.cs</DependentUpon>
     </Compile>
@@ -109,8 +111,8 @@
     <Compile Include="Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Carrito.resx">
-      <DependentUpon>Carrito.cs</DependentUpon>
+    <EmbeddedResource Include="Agregar tarjeta.resx">
+      <DependentUpon>Agregar tarjeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="carritofinal.resx">
       <DependentUpon>carritofinal.cs</DependentUpon>
@@ -231,6 +233,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tarjetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unpeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dospeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sincopeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diezpeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\veintepeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sincuentapeso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sienpeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dosientopeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quinientopeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milpeso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personitas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

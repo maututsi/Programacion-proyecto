@@ -26,10 +26,10 @@ C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto 
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto final - Fundamentos de programación.pdb
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.catalogo.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Ventas.resources
-C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Carrito.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Form2.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Usuarios.resources
-C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Productos1.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.PagoEfectivo.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.carritofinal.resources
 C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.PagoTarjeta.resources
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Agregar_tarjeta.resources
+C:\Programacion-proyecto\Proyecto final - Fundamentos de programación\Proyecto final - Fundamentos de programación\obj\Debug\Proyecto_final___Fundamentos_de_programación.Rellenar.resources

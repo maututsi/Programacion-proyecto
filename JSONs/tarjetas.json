@@ -1,8 +1,20 @@
 [
-    {
-        "numero": "123",
-        "tipo": "debito",
-        "fondos": "780",
-        "nip": "8989"
-    }
+  {
+    "numero": "123",
+    "tipo": "debito",
+    "nip": "8989",
+    "fondos": 181.0
+  },
+  {
+    "numero": "4321",
+    "tipo": "credito",
+    "nip": "7777",
+    "fondos": 102.0
+  },
+  {
+    "numero": "654321",
+    "tipo": "credito",
+    "nip": "333",
+    "fondos": 284.20000000000005
+  }
 ]
